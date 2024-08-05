@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/aayoub/Desktop/Digimep/DigiMEP-Mobile-Android-CN/capacitor-plugin-ml-kit-text-recognition/android/src/main/AndroidManifest.xml:1:1-2:12
+INJECTED from /Users/aayoub/Desktop/Digimep/DigiMEP-Mobile-Android-CN/capacitor-plugin-ml-kit-text-recognition/android/src/main/AndroidManifest.xml:1:1-2:12
+	package
+		INJECTED from /Users/aayoub/Desktop/Digimep/DigiMEP-Mobile-Android-CN/capacitor-plugin-ml-kit-text-recognition/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/aayoub/Desktop/Digimep/DigiMEP-Mobile-Android-CN/capacitor-plugin-ml-kit-text-recognition/android/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /Users/aayoub/Desktop/Digimep/DigiMEP-Mobile-Android-CN/capacitor-plugin-ml-kit-text-recognition/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/aayoub/Desktop/Digimep/DigiMEP-Mobile-Android-CN/capacitor-plugin-ml-kit-text-recognition/android/src/main/AndroidManifest.xml
+INJECTED from /Users/aayoub/Desktop/Digimep/DigiMEP-Mobile-Android-CN/capacitor-plugin-ml-kit-text-recognition/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/aayoub/Desktop/Digimep/DigiMEP-Mobile-Android-CN/capacitor-plugin-ml-kit-text-recognition/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/aayoub/Desktop/Digimep/DigiMEP-Mobile-Android-CN/capacitor-plugin-ml-kit-text-recognition/android/src/main/AndroidManifest.xml

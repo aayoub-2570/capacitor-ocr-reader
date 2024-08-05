@@ -1,0 +1,136 @@
+{
+  "api": {
+    "name": "CapacitorPluginMlKitTextRecognitionPlugin",
+    "slug": "capacitorpluginmlkittextrecognitionplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "detectText",
+        "signature": "(options: DetectImageOptions) => Promise<TextDetectionResult>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "Options for the text detection",
+            "type": "DetectImageOptions"
+          }
+        ],
+        "returns": "Promise<TextDetectionResult>",
+        "tags": [
+          {
+            "name": "param",
+            "text": "options Options for the text detection"
+          },
+          {
+            "name": "returns",
+            "text": "Resolved texts"
+          }
+        ],
+        "docs": "Tries to detect text from the given image",
+        "complexTypes": [
+          "TextDetectionResult",
+          "DetectImageOptions"
+        ],
+        "slug": "detecttext"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [
+    {
+      "name": "TextDetectionResult",
+      "slug": "textdetectionresult",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "text",
+          "tags": [],
+          "docs": "Found text",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "blocks",
+          "tags": [],
+          "docs": "Parsed text by lines",
+          "complexTypes": [
+            "Block"
+          ],
+          "type": "Block[]"
+        }
+      ]
+    },
+    {
+      "name": "Block",
+      "slug": "block",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "lines",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [
+            "Line"
+          ],
+          "type": "Line[]"
+        }
+      ]
+    },
+    {
+      "name": "Line",
+      "slug": "line",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "elements",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [
+            "Element"
+          ],
+          "type": "Element[]"
+        }
+      ]
+    },
+    {
+      "name": "Element",
+      "slug": "element",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": []
+    },
+    {
+      "name": "DetectImageOptions",
+      "slug": "detectimageoptions",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "base64Image",
+          "tags": [],
+          "docs": "The image to detect texts from",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "rotation",
+          "tags": [],
+          "docs": "The image's counter-clockwise orientation degrees. Only 0, 90, 180, 270 are supported. Default 0",
+          "complexTypes": [],
+          "type": "number | undefined"
+        }
+      ]
+    }
+  ],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
